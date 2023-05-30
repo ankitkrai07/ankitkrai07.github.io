@@ -22,8 +22,8 @@ function SendMSG(e) {
     to_name: "Ankit Kumar",
     message: body,
   };
-
-  emailjs.send("service_6ke7mf1", "template_d60ly8l", temp).then((res) => {
+  // "service_6ke7mf1", "template_d60ly8l",
+  emailjs.send("service_7f7x0ah", "template_pvksrko", temp).then((res) => {
     if (res.status == 200) {
       success();
     } else {
